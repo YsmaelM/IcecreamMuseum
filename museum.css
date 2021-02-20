@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(255, 118, 113);
+    padding: 0% 1%;
+    
+}
+nav{
+    font-family: 'Lobster', cursive;
+    font-size: 1.3rem;
+}
+#navbarNav .nav-link:hover{
+    color: rgb(151, 32, 32);
+}
+#Layer_1{
+    height: 30px;
+    
+}
+#logo{
+    color: rgb(255, 255, 255);;
+}
+path {
+    fill:  rgb(151, 32, 32) !important;
+}
+ul{
+    margin-left: 15px;
+}
+p{
+    color: rgb(250, 216, 216);
+    font-size: 1.3rem;
+    font-family: 'Lobster Two', cursive;
+    
+
+}
+
+img{
+    width: 100%;
+    max-height: 100vh;
+}
+@media screen and (max-width:767px){
+    img{
+        width: 100%;
+    }
+}
+img.text-icon{
+    width: 50px;
+    height: 50px;
+}
+img.text-icon2{
+    width: 50px;
+    height: 50px;
+}
+.headingTitle, h1{
+    font-weight: 100;
+    font-family: 'Lobster', cursive;
+    color: white;
+}
+span{
+    color: rgb(151, 32, 32);
+}
+h1{
+    font-size: 2rem;
+}
+
+@media screen and (max-width:300px){
+    .headingTitle h1{
+        
+        font-size: calc(8px + (32 - 8) * ((100vw - 100px) / (300 - 100)));
+    }
+}
+
+footer p , .attribute{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Lobster Two', cursive;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer p{
+    margin: 0%;
+}
+
+.bootstrap path{
+    fill:  rgb(0, 0, 0) !important;
+}
