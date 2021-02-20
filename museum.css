@@ -66,6 +66,9 @@ h1{
         font-size: calc(8px + (32 - 8) * ((100vw - 100px) / (300 - 100)));
     }
 }
+footer{
+    margin-top: 200px;
+}
 
 footer p , .attribute{
     color: white;
