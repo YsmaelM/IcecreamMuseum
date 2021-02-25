@@ -6,10 +6,17 @@ body{
 nav{
     font-family: 'Lobster', cursive;
     font-size: 1.3rem;
+    transition: background-color 500ms ease;
 }
 #navbarNav .nav-link:hover{
     color: rgb(151, 32, 32);
 }
+
+#navbar.active{
+    background-color: rgba(255, 68, 68, 0.466);
+    
+}
+
 #Layer_1{
     height: 30px;
     
